@@ -1,0 +1,20 @@
+{
+    "name": "ahmethocam/boilerplate",
+    "description": "Projelerim i\u0000in yeni Altyap",
+    "type": "framework",
+    "authors": [
+        {
+            "name": "Ahmet Ali Gündoğdu",
+            "email": "56776027+ahmetalig@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "izniburak/router": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./app",
+            "Core\\": "./core"
+        }
+    }
+}
